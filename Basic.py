@@ -170,5 +170,4 @@ for idx, num in enumerate(my_list):
         my_list[idx] = my_list[idx + 1]
     else:
         my_list[idx] = '0'
-        asdkofjosidjdifoj
 print(my_list)
