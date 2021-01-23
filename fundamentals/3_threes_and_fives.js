@@ -22,3 +22,20 @@ function ThreesFives() {
 }
 
 ThreesFives();
+
+
+BetterThreesFives(400, 100000);
+
+function BetterThreesFives(start, end) {
+    var sum = 0;
+    for (var i = start; i <= end; i++) {
+        if ((i % 3 == 0) && (i % 5 == 0)) {
+            continue;
+        }
+        else if ((i % 3 == 0) || (i % 5 == 0)) {
+            sum += i;
+        }
+    }
+
+    console.log(sum);
+}
