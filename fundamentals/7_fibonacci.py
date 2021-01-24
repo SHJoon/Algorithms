@@ -13,13 +13,13 @@ def fibonacci(num):
     second = 1
     count = 0
 
-    while count < num:
+    while count < num - 1:
         temp = second
         second = first + second
         first = temp
         count += 1
     
-    return first
+    return second
 
 print(fibonacci(4))
 print(fibonacci(5))
