@@ -6,3 +6,12 @@
 # elements. Do not alter the original arrays. Ex.:
 # arrConcat( ['a','b'], [1,2] ) should
 # return ['a','b',1,2].
+
+def concat(arr1, arr2):
+    new_arr = []
+    for val in arr1:
+        new_arr.append(val)
+    for val in arr2:
+        new_arr.append(val)
+        
+    return new_arr
