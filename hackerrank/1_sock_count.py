@@ -53,3 +53,11 @@ if __name__ == '__main__':
     fptr.write(str(result) + '\n')
 
     fptr.close()
+
+def blah(arr):
+    freq_table = {}
+    for num in arr:
+        if num in freq_table:
+            freq_table[num] += 1
+        else:
+            freq_table[num] = 1
